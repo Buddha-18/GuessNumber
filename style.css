@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    border: 2px solid #170a1c;
+    padding: 30px;
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+    gap: 20px;
+    background-color: #7469d8;  
+}
+.instruction{
+    line-height: 1.8;
+    color:#170a1c;
+}
+h1{
+    color:aqua;
+}
+h3{
+    color: whitesmoke;
+}
+p{
+    color: wheat;
+}
+.game-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+.game-container input{
+     align-self: center;
+     height: 30px;
+     width:100px;
+     
+}
+button{
+     align-self: center;
+     padding: 8px;
+     font-size: 15px;  
+     border-radius: 10px;
+}
+button:hover{
+    opacity: 0.8;
+}
+#sub-btn{
+    background-color:#0b7189;
+    color: white;
+    
+}
+#label{
+    display: inline;
+    margin-right: 5px;
+}
+#guesses{
+    display: inline;
+}
+.result-container{
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.new-end-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+#new-btn{
+     background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 0%, rgba(80, 235, 28, 1) 84%);
+     color: brown;
+}
+#end-btn{
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(149, 0, 255, 1) 0%, rgba(235, 28, 56, 1) 84%);
+    color: aliceblue;
+}
+#message-box{
+    font-size: 20px;
+    color: #ffba08;
+    font-weight: bold;
+}
